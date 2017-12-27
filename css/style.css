@@ -41,7 +41,7 @@ body {
   text-align: center; }
 
 .heading-primary {
-  color: #fff;
+  color: #FFFFFF;
   text-transform: uppercase;
   backface-visibility: hidden; }
 
@@ -117,8 +117,8 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn--white {
-  background-color: #ef8319ee;
-  color: #e5e5e5; }
+  background-color: #FFFFFF;
+  color: #777; }
 
 .btn::after {
   content: "";
@@ -133,7 +133,7 @@ body {
   transition: all .4s; }
 
 .btn--white::after {
-  background-color: #ef8319ee; }
+  background-color: #FFFFFF; }
 
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);

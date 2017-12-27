@@ -2,6 +2,9 @@ $color-primary: #C0C0C0;
 $color-primary-light: #D3D3D3;
 $color-primary-dark: #2F4F4F;
 
+$color-grey-dark: #777;
+$color-white: #FFFFFF;
+
 *,
 *::after,
 *::before {
@@ -58,7 +61,7 @@ body {
 }
 
 .heading-primary {
-	color: #fff;
+	color: $color-white;
 	text-transform: uppercase;
 
 	backface-visibility: hidden;
@@ -162,8 +165,8 @@ body {
 }
 
 .btn--white {
-	background-color: #ef8319ee;
-	color: #e5e5e5;
+	background-color: $color-white;
+	color: $color-grey-dark;
 }
 
 .btn::after {
@@ -180,7 +183,7 @@ body {
 }
 
 .btn--white::after {
-	background-color: #ef8319ee;
+	background-color: $color-white;
 }
 
 .btn:hover::after {
